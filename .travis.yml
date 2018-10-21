@@ -5,7 +5,7 @@ python:
 before_install:
   - sudo apt-get update
   - sudo apt-get install --yes wkhtmltopdf xvfb
-  - sudo -c "printf '#!/bin/bash\nxvfb-run -a --server-args=\"-screen 0, 1024x768x24\" /usr/bin/wkhtmltopdf -q $*' > /usr/bin/wkhtmltopdf.sh"
+  - su -c "printf '#!/bin/bash\nxvfb-run -a --server-args=\"-screen 0, 1024x768x24\" /usr/bin/wkhtmltopdf -q $*' > /usr/bin/wkhtmltopdf.sh"
   - sudo chmod a+x /usr/bin/wkhtmltopdf.sh
   - ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
   - pip install pycodestyle codecov
