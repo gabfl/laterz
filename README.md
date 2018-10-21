@@ -11,7 +11,7 @@ Save webpages to PDF to read them laterz
 ```bash
 brew install Caskroom/cask/wkhtmltopdf
 pip3 install -r requirements.txt
-python3 laterz.py -u https://www.gab.lc -o ~/Downloads/
+python3 src/laterz.py -u https://www.gab.lc -o ~/Downloads/
 ```
 
 ## Usage
