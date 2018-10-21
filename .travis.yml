@@ -3,7 +3,7 @@ python:
   - "3.5"
   - "3.6"
 before_install:
-  - sudo add-apt-repository ppa:ecometrica/servers
+  - sudo add-apt-repository --yes ppa:ecometrica/servers
   - sudo apt-get update
   - sudo apt-get install --yes wkhtmltopdf
   - pip install pycodestyle codecov
