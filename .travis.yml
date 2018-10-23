@@ -1,11 +1,14 @@
 language: python
 python:
-  - "3.5"
+  # - "3.5"
   - "3.6"
 before_install:
-  - sudo add-apt-repository ppa:ecometrica/servers
   - sudo apt-get update
-  - sudo apt-get install --yes wkhtmltopdf
+  - sudo apt-get install --yes wkhtmltopdf xvfb
+  # Fix for X server
+  # - sudo sh -c "printf '#!/bin/bash\nxvfb-run -a --server-args=\"-screen 0, 1024x768x24\" /usr/bin/wkhtmltopdf -q $*' > /usr/bin/wkhtmltopdf.sh"
+  # - sudo sh -c "chmod a+x /usr/bin/wkhtmltopdf.sh"
+  # - sudo sh -c "ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf"
   - pip install pycodestyle codecov
   - pip3 install -r requirements.txt
 script:
