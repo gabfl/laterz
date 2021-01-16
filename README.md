@@ -1,8 +1,8 @@
 # laterz
 
-[![Build Status](https://travis-ci.org/gabfl/laterz.svg?branch=master)](https://travis-ci.org/gabfl/laterz)
-[![codecov](https://codecov.io/gh/gabfl/laterz/branch/master/graph/badge.svg)](https://codecov.io/gh/gabfl/laterz)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/gabfl/laterz/master/LICENSE)
+[![Build Status](https://travis-ci.org/gabfl/laterz.svg?branch=main)](https://travis-ci.org/gabfl/laterz)
+[![codecov](https://codecov.io/gh/gabfl/laterz/branch/main/graph/badge.svg)](https://codecov.io/gh/gabfl/laterz)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/gabfl/laterz/main/LICENSE)
 
 Save webpages to PDF to read them laterz
 
@@ -24,4 +24,4 @@ python3 src/laterz.py \
 
 ->
 
-![Demo](https://github.com/gabfl/laterz/blob/master/img/sample.png?raw=true)
+![Demo](https://github.com/gabfl/laterz/blob/main/img/sample.png?raw=true)
