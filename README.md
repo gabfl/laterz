@@ -1,6 +1,6 @@
 # laterz
 
-[![Build Status](https://travis-ci.org/gabfl/laterz.svg?branch=main)](https://travis-ci.org/gabfl/laterz)
+[![Build Status](https://github.com/gabfl/laterz/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/gabfl/laterz/actions)
 [![codecov](https://codecov.io/gh/gabfl/laterz/branch/main/graph/badge.svg)](https://codecov.io/gh/gabfl/laterz)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/gabfl/laterz/main/LICENSE)
 
